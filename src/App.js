@@ -5,7 +5,7 @@ import {ApodData} from "./components/nasa_apod";
 function App() {
   return (
     <div>
-      <ApodData input_date="2017-07-30"/>
+      <ApodData input_date="2018-07-30"/>
     </div>
   );
 }
