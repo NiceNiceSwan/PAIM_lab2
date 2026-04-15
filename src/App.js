@@ -1,14 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import React from "react";
-import {render} from "react-dom";
 
-import {GitHubUser} from "./components/GitHubUser";
+import {ApodData} from "./components/nasa_apod";
 
 function App() {
   return (
     <div>
-      <GitHubUser login="mdsumner"/>
+      <ApodData input_date="2017-07-30"/>
     </div>
   );
 }
